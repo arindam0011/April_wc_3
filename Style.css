@@ -1,0 +1,57 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+   
+}
+
+.nav_list{
+    gap:50px;
+}
+.icon_box{
+    gap: 40px;
+}
+.Main_content{
+    padding-left: 100px;
+    padding-top: 100px;
+    height: 800px;
+    background-image: url("pizza.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+}
+.main_h1{
+    padding-bottom: 30px;
+    text-shadow: 5px 3px 2px black;
+}
+.main_p{
+    width:350px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-shadow: 3px 3px 2px black;
+}
+.main_line{
+    height: 10px;
+    width:350px;
+    background-color: #F24C4C;
+}
+.abt_p{
+    width:300px;
+    padding:10px;
+    border-bottom: 5px solid #F24C4C;
+}
+.abt_2_line{
+    width:700px;
+    padding:10px;
+    border-bottom: 4px solid #F24C4C;
+}
+.abt_s2{
+    padding-inline: 200px;
+    padding-top: 50px;
+}
+.abt_img{
+    width:700px;
+    Height:420px;
+}
