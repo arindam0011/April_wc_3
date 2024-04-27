@@ -13,9 +13,9 @@
     gap: 40px;
 }
 .Main_content{
+    width: 100vw;
     padding-left: 100px;
     padding-top: 100px;
-    height: 800px;
     background-image: url("pizza.jpg");
     background-repeat: no-repeat;
     background-size: cover;
@@ -37,6 +37,9 @@
     width:350px;
     background-color: #F24C4C;
 }
+.about_us{
+    margin-top: 70px;
+}
 .abt_p{
     width:300px;
     padding:10px;
@@ -47,11 +50,63 @@
     padding:10px;
     border-bottom: 4px solid #F24C4C;
 }
-.abt_s2{
-    padding-inline: 200px;
+.abt-2{
+    width: 70vw;
+}
+.abt_p2{
     padding-top: 50px;
 }
 .abt_img{
     width:700px;
     Height:420px;
+}
+.menu{
+    margin-top: 100px;
+}
+.menu_p{
+    width:300px;
+    padding:10px;
+    border-bottom: 4px solid #F24C4C;
+}
+.menu_p2{
+    padding-top:20px;
+}
+.middle{
+   display:flex;
+   justify-content: center;
+}
+.view{
+width: 85vw;
+}
+.manue_img{
+    width: 100px;
+    height: 100px;
+}
+.item_p{
+    width: 50%;
+}
+.item_box{
+ width:70vw;
+}
+.manue_items{
+
+width:50%;
+}
+.manue_img {
+    border-radius: 5px;
+}
+.scrlimg{
+    display: inline-block;
+    width: 100%;
+    height:100%;
+}
+.scrlimgview{
+    width: 60vw;
+    height: 50vh;
+    border: 2px solid white;
+   overflow-x: scroll;
+   overflow: -moz-hidden-unscrollable;
+}
+::-webkit-scrollbar{
+    opacity: 0;
 }
