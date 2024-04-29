@@ -197,16 +197,22 @@ height: auto;
     justify-content: space-around;
     gap:0;
 }
-.Main_content>.p_H1>div>h1{
+.Main_content{
     display: flex;
-    justify-content: left;
-    align-items: left;
+    justify-content: centre;
+    align-items: center;
+    padding-top: 30px;
+    
+}
+.Main_content>.p_H1>.main_h1>*{
+    display: flex;
+   
     flex-direction: column;
     width:100%;
     text-align: left;
     margin:0;
-    padding-left: 0;
-    font-size: 25px;
+    padding: 0px;
+    font-size: 20px;
    
 }
 .Main_content>.p_H1>div>p{
