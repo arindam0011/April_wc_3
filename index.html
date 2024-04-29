@@ -178,9 +178,43 @@
 
       <section class="carousel">
         <div class=" d-flex justify-content-center">
-          <div class="menu_p text-center display-6">Carousel</div>
+          <div class="menu_p text-center m-auto display-6">Carousel</div>
         </div>
-        <div class="d-flex p-5 justify-content-center">
+        <div id="carouselExampleIndicators" class="carousel slide">
+          <div class="carousel-indicators">
+            <button id="bn" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button id="bn" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button id="bn" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            <button id="bn" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+            <button id="bn" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4" aria-label="Slide 5"></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="item.png" class="d-block " alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="item.png" class="d-block " alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="item.png" class="d-block " alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="item.png" class="d-block " alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="item.png" class="d-block " alt="...">
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+        <!-- <div class="d-flex p-5 justify-content-center">
           <div class=" scrlimgview text-nowrap d-inline">
             <img class="scrlimg" src="item.png">
             <img class="scrlimg" src="item.png">
@@ -189,11 +223,11 @@
             <img class="scrlimg" src="item.png">
             <img class="scrlimg" src="item.png">
           </div>
-        </div>
+        </div> -->
 
       </section>
 
-      <section class="gallery d-flex justify-content-center ">
+      <section class="gallery pt-5 d-flex justify-content-center ">
         <div class=" gal_h d-flex pb-5 justify-content-center">
           <div class="menu_p text-center display-6">Gallary</div>
         </div>
